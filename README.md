@@ -23,12 +23,7 @@ functions to operate on these
 B) pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for 
 manipulating numerical tables and time series.
 
-C) Flask is a micro web framework written in Python. It is classified as a microframework because 
-it does not require particular tools or libraries. It has no database abstraction layer, form 
-validation, or any other components where pre-existing third-party libraries provide common 
-functions
-
-D) Scikit-learn is a free software machine learning library for the Python programming language. 
+C) Scikit-learn is a free software machine learning library for the Python programming language. 
 It features various classification, regression and clustering algorithms including support vector 
 machines, ...etc.
 
@@ -43,10 +38,6 @@ To install the libraries we can use pip installer from the command line:
   3) pip install flask
   4) pip install sklearn
   5) pip install matplotlib
-  
-  or Open CMD in project Directory and type -
-  
-  pip install -r requirements.txt
   
 ###### Examples
 ![image](https://user-images.githubusercontent.com/60839928/129749027-c5b332d8-b873-42e4-b2db-bd2da7ddc24f.png)
