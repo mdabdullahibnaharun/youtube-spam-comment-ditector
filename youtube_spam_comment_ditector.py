@@ -134,12 +134,12 @@ df_with_keys.loc["Psy"]
 # save and write mearge data to a csv file
 df_with_keys.to_csv("YoutubeSpamMergedData01.csv")
 
+"""## Data Visualization after Preprocessing"""
+
 # getting data from mearge dataset.
 
 df= pd.read_csv("YoutubeSpamMergedData01.csv")
 df
-
-"""## Data Visualization after Preprocessing"""
 
 #data size
 df.size
@@ -239,21 +239,21 @@ KNNC = KNeighborsClassifier()
 KNNC.fit(X_train,y_train)
 print(f"Train Accuracy of model {KNNC.score(X_train,y_train)*100} %")
 # acuracy of our model
-print(f"Test Accuracy of model {clf.score(X_test,y_test)*100} %")
+print(f"Test Accuracy of model {KNNC.score(X_test,y_test)*100} %")
 
 from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
 dtc = DecisionTreeClassifier()
 dtc.fit(X_train,y_train)
 print(f"Train Accuracy of model {dtc.score(X_train,y_train)*100} %")
 # acuracy of our model
-print(f"Test Accuracy of model {clf.score(X_test,y_test)*100} %")
+print(f"Test Accuracy of model {dtc.score(X_test,y_test)*100} %")
 
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
 Rfc= RandomForestClassifier()
 Rfc.fit(X_train,y_train)
 print(f"Train Accuracy of model {Rfc.score(X_train,y_train)*100} %")
 # acuracy of our model
-print(f"Test Accuracy of model {clf.score(X_test,y_test)*100} %")
+print(f"Test Accuracy of model {Rfc.score(X_test,y_test)*100} %")
 
 from sklearn.svm import SVC
 from pandas.core.common import random_state
