@@ -1,36 +1,21 @@
 # Youtube-Spam-Comment-Detector
-Youtube Spam Comment Detector using ML.
+Youtube Spam Comment Detector using ML & DM.
 
 
 ### Abstract
 We know that YouTube has emerged as the most popular website for sharing and watching 
 video content. However, such success has also attracted malicious users, whose goal is to self-promote their videos or spread viruses and malware. Therefore, it is very important to find ways to identify and report these videos & comments.
 ### Objective
-The objective of this project is to create a web-app using python(Flask). This project will be build 
-using python modules like Numpy, Flask, SkLearn, Mathplotlib... etc.
-In this project, the user has to give youtube comment “predict” button. It will show the result 
-below. If the user clicks on the “reload” button, then it will reload the app.
+The objective of this project is to create an app using python. This project will be build 
+using python modules like NumPy,Sk-Learn, Mathplotlib... etc.
+In this project, the user has to give youtube comment. It will show the result 
+below.
 ### Prerequisites
- 1.Familiarity with Python
- 2.Working knowledge of Naive-bayes algorithm.
-
-
-To build this project we will use the basic concept of python and libraries
-
-A)NumPy is a library for the Python programming language, adding support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical 
-functions to operate on these
-
-B) pandas is a software library written for the Python programming language for data manipulation and analysis. In particular, it offers data structures and operations for 
-manipulating numerical tables and time series.
-
-C) Scikit-learn is a free software machine learning library for the Python programming language. 
-It features various classification, regression and clustering algorithms including support vector 
-machines, ...etc.
-
-E) Matplotlib is a plotting library for the Python programming language and its numerical 
-mathematics extension NumPy. It provides an object-oriented API for embedding plots into 
-applications using general-purpose GUI toolkits like Tkinter, wxPython
-
+1. Familiarity with Python. 
+2. Working knowledge of the classification algorithm.
+3. Working knowledge of Pandas, NumPy.
+4. Matplotlib for the visualization.
+5. Scikit-learn for classification, regression and clustering algorithms including support vector machines, and Nave-Bayes ...etc.
 
 To install the libraries we can use pip installer from the command line:
   1) pip install numpy
@@ -48,13 +33,21 @@ https://www.kaggle.com/goneee/youtube-spam-classifiedcomments
 
 #### Project Structure:
 Let’s check the steps to build This project using Python
+
 •	Import modules dataset
+
 •	Preprocessing
+
 •	Feature Selection
+
 •	Feature Extraction and Feature Engineering
-•	Analyzer and apply algorithm
+
 •	Model Building
+
+•	Analyzer and apply algorithm
+
 •	Predict & Output
+
 ##### Implemented Software: 
 	Language: Python 3.9.
 	IDE:Jupyter Note Book / Google-Colab
@@ -63,7 +56,12 @@ Let’s check the steps to build This project using Python
 
 ![image](https://user-images.githubusercontent.com/60839928/129749793-5ed8260e-0962-405f-a013-e779e95b5d7b.png)
 
-#### Algorithm (naive bayes)
+#### Visualization
+
+![image](https://user-images.githubusercontent.com/60839928/163209054-4c9ed296-93ed-49a6-a8ab-bac1ed645f98.png)
+
+
+#### Algorithm (Naive Bayes)
 
 ![image](https://user-images.githubusercontent.com/60839928/129827928-799c790d-c78a-42ee-bbcf-7db882a2a4ef.png)
 
@@ -75,16 +73,17 @@ Let’s check the steps to build This project using Python
 #### Application Source Code: 
 
 Google-Colab link: 
-https://drive.google.com/file/d/1ECmipMYkUcsCSIuvuhymFvaak5-cUD2j/view?usp=sharing
+https://colab.research.google.com/drive/19YCJJpquZY-z_Tf8ZejMOdF9GV3Dmnxm?authuser=2
 
 #### Challenges Faced:
-Faced error Dataset. Faced problem in Algorithms and Some Little bugs.
+Faced error Dataset. 
+Faced problem in Algorithms and Some Little bugs.
 
 #### Outcome
 The outcome of this project is a simple application all people can use to check spam comments.
 
 ### Conclusion:
-This was a great experience doing this project. With these steps, we have successfully created a Data mining. For classifying the YouTube comments as spam and not spam (ham) there are various techniques used. This approach has been tested with real-time YouTube comments and given an overall outcome which is 96% accurate. This approach has been tested with real-time YouTube comments and given an overall outcome which is more accurate. we used popular libraries to rendering datasets and also learned about basics of Machine learning. In this way, successfully created our youtube spam comment detector python project. The challenges we faced and the learning that will come in great help in the future. Hope you enjoyed it.
+This was a great experience doing this project. With these steps, we have successfully created a Data mining project. For classifying the YouTube comments as spam and not spam (ham) there are various techniques used. This approach has been tested with real-time YouTube comments and given an overall outcome that is 96% accurate. This approach has been tested with real-time YouTube comments and given an overall outcome that is more accurate. we used popular libraries to render datasets and also learned about the basics of Machine learning. In this way, successfully created our youtube spam comment detector python project. The challenges we faced and the learning that will come of great help in the future. Hope you enjoyed it.
 
 Thank You. 😊
 
